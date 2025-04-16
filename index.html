@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUDS_two</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+</head>
+<body>
+<header class="mt-4 container col-lg-9 col-md-9 col-sm-9 text-center">
+  <h1>Library Management System</h1>
+</header>
+<div class="inputs container">
+
+  <div class="The_Title container col-lg-11 col-md-11 col-sm-11"><label>The Title</label><input class="Title" type="text" placeholder="Title"></div>
+  <div class="The_Auther container col-lg-11 col-md-11 col-sm-11"><label>The Auther</label><input class="Auther" type="text" placeholder="Auther"></div>
+  <div class="The_Genre container col-lg-11 col-md-11 col-sm-11"><label>The Genre</label><input class="Genre" type="text" placeholder="Genre"></div>
+  <div class="The_Year container col-lg-11 col-md-11 col-sm-11"><label>The Year</label><input class="Year" type="text" placeholder="Year"></div>
+  <div class="The_Quantity container col-lg-11 col-md-11 col-sm-11"><label>The Quantity</label><input class="Quantity" type="text" placeholder="Quantity"></div>
+
+</div>
+<div class="btns d-flex mt-4">
+  <button class="col-lg-2 col-md-2 col-sm-2 container text-left Add_Book ">Add Book</button>
+  <button class="col-lg-2 col-md-2 col-sm-2 container text-left Clear_All">Clear All</button>
+</div>
+
+
+<main>
+<table class=" container text-center">
+  <thead class="thead col-lg-9 col-md-9 col-sm-9">
+    <tr>
+      <th>Title</th>
+      <th>Auther</th>
+      <th>Genre</th>
+      <th>Year</th>
+      <th>Quality</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+<hr>
+
+  <tbody class="tbody ">
+
+  </tbody>
+
+
+</table>
+</main>
+
+<footer class="footer container text-center col-lg-4 col-lg-4 col-lg-4">
+<div class="The_New_Edit">
+  <h1>Edit book</h1>
+
+  <div class="new_inputs">
+<label>Book_title:</label>
+<input class="newTitle" type="text">
+
+<label>Auther:</label>
+<input class="newAuther" type="text">
+
+<label>Genre:</label>
+<input class="newGenre" type="text">
+
+
+<label>Year</label>
+<input class="NewYear" type="text">
+
+
+<label>Quallity</label>
+<input class="NewQuality" type="text">
+
+</div>
+
+<div class="newbtns">
+<button class="new_btn_save_challeng">Save Challeng</button>
+<button class="new_btn_Close">Close</button>
+</div>
+
+
+</div>
+</footer>
+    
+
+  <script src="mian.js"></script>
+</body>
+</html>
